@@ -71,6 +71,13 @@
     * 图片上传
     * 删除
 
+# 目前出现问题
+1.  用户上传视频经过后端上传到阿里云oss保存，
+    后端上传视频时间长，前端报错500.
+2.  admin和front-desk项目无法引用core里面引用的jar，      
+    在core的pom.xml配置的jar需要在admin和front-desk的pom.xml添加  
+3.  core里的有个实体类BaseEntity,有着id和createTime属性  
+    在admin和fron-desk在dao层查询的实体对象获取Id或者createTime都会报错
 
 
 
