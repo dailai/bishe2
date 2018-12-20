@@ -20,16 +20,16 @@
 4. my-admin项目  
     使用了蚂蚁金服的ant-design-pro，此外没有添加额外的模块 
     下载依赖  
-    npm install  
+    `npm install`  
     运行  
-    npm start  
+    `npm start`    
 5. my-frontDesk项目  
     create-react-app搭建的项目  
     添加的模块：axios,jquery,antd,redux,react-router-dom,video-react
     下载依赖  
-    npm install  
+    `npm install`    
     运行  
-    npm start  
+    `npm start`    
 
 # 前台模块
 1. 用户模块
@@ -58,9 +58,20 @@
     * 用户详细信息
     * 用户删除
 3. 视频管理
+    * 视频分类(增删改查)
     * 视频列表
     * 视频审核
     * 高级搜索
+4. 前台头部图片管理
+    * 状态选择（显示和关闭）
+    * 图片上传
+    * 删除
+5. 前台轮播图片管理
+    * 状态选择（显示和关闭）
+    * 图片上传
+    * 删除
+
+
 
 
 
