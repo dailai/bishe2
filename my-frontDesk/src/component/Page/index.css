@@ -1,0 +1,99 @@
+#pageination{
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}
+
+.page-module{
+    overflow: hidden;
+    line-height: 40px;
+    font-family: Arial;
+    margin: 0 0 5px;
+    display: block;
+    width: 100%;
+}
+
+.page-module .pages{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page-module .pages .page-item{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.page-module .pages .page-item button{
+    color: #222;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    background-image: none;
+    transition: all .2s;
+    font-size: 14px;
+    min-width: 15px;
+    margin: 0 2px;
+    padding: 0 13px;
+    float: left;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+}
+
+.page-module .pages .page-item.active button{
+    background: #00a1d6;
+    color: #fff;
+    border: 1px solid #00a1d6;
+}
+
+.page-module .pages .page-item:hover button{
+    background: #00a1d6;
+    color: #fff;
+    border: 1px solid #00a1d6;
+}
+
+.page-module .pages strong{
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 2px;
+    padding: 0 10px;
+}
+
+.page-module .jump-pager{
+    float: right;
+    padding: 0 2px;
+    font-size: 12px;
+    color: #99a2aa;
+    line-height: 40px;
+    height: 40px;
+}
+
+.page-module .jump-pager .page-total{
+    display: inline-block;
+}
+
+.page-module .jump-pager input[type=text]{
+    padding: 0 10px;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    box-shadow: none;
+    color: #99a2aa;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ccd0d7;
+    border-radius: 4px;
+}
+
+
+
+

@@ -1,0 +1,95 @@
+.common-moudle{
+    position: relative;
+    width: 160px;
+    height: 148px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.md-list{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.common-moudle a{
+    display: block;
+}
+
+.common-moudle .pic{
+    position: relative;
+    width: 160px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.common-moudle .pic .duration{
+    opacity: 0;
+    position: absolute;
+    bottom: 2px;
+    left: 6px;
+    color: #fff;
+    height: 12px;
+    line-height: 12px;
+    padding: 0 5px 1px 0;
+    transition: all .3s;
+}
+
+.common-moudle .t{
+    padding-top: 8px;
+    height: 60px;
+    line-height: 20px;
+    transition: all .2s linear;
+    color: #222;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    text-align: left;
+}
+
+.common-moudle .num{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 20px;
+    line-height: 20px;
+    color: #99a2aa;
+    background-color: #fff;
+    transition: all .3s;
+    font-size: 0;
+}
+
+.common-moudle .num span{
+    line-height: 12px;
+    height: 14px;
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    font-size: 12px;
+    vertical-align: bottom;
+}
+
+.common-moudle .pic .mask-video{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    transition: opacity .3s;
+}
+.common-moudle:hover .mask-video{
+    opacity: 1;
+}
+
+.common-moudle:hover .num{
+    bottom: -20px;
+}
+
+.common-moudle:hover .duration{
+    opacity: 1;
+}
+

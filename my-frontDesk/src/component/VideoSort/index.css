@@ -1,0 +1,48 @@
+#videolist_box{
+    padding-right: 20px;
+    margin-bottom: 30px;
+    min-width: 400px;
+}
+
+.video-list .vl-hd{
+    height: 47px;
+    border-bottom: 1px solid #e5e9ef;
+    position: relative;
+}
+
+.video-list .vl-hd .left{
+    float: left;
+}
+
+.video-list .vl-hd .left .order-tab-list{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.video-list .vl-hd .left .order-tab-list li{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #222;
+    text-align: center;
+    font-size: 14px;
+}
+
+.video-list .vl-hd .left .order-tab-list .on{
+    color: #00a1d6;
+    height: 46px;
+    border-bottom: 2px solid #00a1d6;
+}
+
+.video-list .vd-list-cnt{
+    clear: both;
+    overflow: hidden;
+}
+.video-list .vd-list-cnt .vd-list{
+    margin-right: -42px;
+}
+
+
+

@@ -1,0 +1,47 @@
+/* 推荐模块 */
+.funny-module{
+    width: 100%;
+}
+/* 标题 */
+.tit{
+    width: 100%;
+    line-height: 44px;
+}
+.tit em{
+    float: left;
+    
+}
+.tit em img{
+    padding-top: 5px;
+}
+.tit em a{
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    overflow: hidden;
+}
+/* 更多 */
+.tit span{
+    color: black;
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.tit span a:hover{
+    color: #6b6b68;
+}
+.gen-duo-icon:before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left: 8px solid rgb(212, 209, 6);
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+/* Img的CSS再它的css文件里 */

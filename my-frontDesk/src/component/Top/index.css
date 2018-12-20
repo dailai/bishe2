@@ -1,0 +1,217 @@
+
+.user-nav-menu{
+    height: 45px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background:rgba(145, 137, 137, 0.4);
+}
+
+#top-moudle .top-area{
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.page-nav{
+    height: 45px;
+    line-height: 45px;
+    float: left;
+}
+.page-nav a{
+    color: #000000;
+}
+
+
+#top-moudle .us-nav{
+    margin-right: 30px;
+    float: right;
+}
+#top-moudle .us-nav .us-info{
+    width: 45px;
+    height: 45px;
+    position: relative;
+
+    float: left;
+}
+#top-moudle .us-nav img{
+    border: 0 solid #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* 已登录 */
+.us-nav .us-info .face{
+    color: #222;
+    height: 100%;
+    display: block;
+}
+.us-nav .us-info .face .d-face{
+    margin-top: 5px;
+    position: absolute;
+    z-index: 20;
+    width: 36px;
+    height: 36px;
+    left: 11px;
+    top: 0;
+    transition: .3s;
+}
+
+.us-nav .us-info .face img{
+    transition: .4s;
+}
+.us-nav .us-info:hover .d-face{
+    left: 0px;
+    top:15px;
+    width: 64px;
+    height: 64px;
+}
+
+.us-nav .us-info .us-lo-info{
+    position: relative;
+    top: 45px;
+    left: -100px;
+    width: 260px;
+    background-color: #fff;
+    transition: .4s;
+}
+.us-nav .us-info:hover .us-lo-info{
+    display: block;
+}
+
+.us-lo-info{
+    display: none;
+}
+
+#user-al-lo .user-info{
+    width: 100%;
+    height: 80px;
+    padding-top: 40px;
+    font-size: 13px;
+    text-align: center;  
+}
+#user-al-lo .user-menu{
+    padding: 10px 20px 30px;
+}
+#user-al-lo .user-menu ul li{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    position: relative;
+}
+#user-al-lo .user-menu ul li a{
+    white-space: nowrap;
+    color: #222;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    padding: 5px 0;
+    line-height: 16px;
+}
+
+#user-al-lo .user-menu .b-icon{
+    background-position: -472px -407px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: top;
+    display: inline-block;
+    background-image: url(../../static/icons.png);
+}
+
+#user-al-lo .user-menu-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f5f7;
+    border-radius: 0 0 4px 4px;
+}
+
+#user-al-lo .user-menu-bottom .signout{
+    cursor: pointer;
+    float: right;
+    padding-right: 20px;
+    color: #222;
+}
+
+/* .us-nav .us-info .face:hover img{
+    border: 2px solid #fff;
+    transform:scale(2);
+    -ms-transform:scale(2);
+    -webkit-transform:scale(2);
+    -o-transform:scale(2);
+    -moz-transform:scale(2);
+} */
+
+
+
+/* 投稿选项 */
+.user-contribute{
+    width: 100px;
+    float: right;
+    height: 45px;
+    background:rgb(238, 241, 3);
+    position: relative;
+    border-radius: 0 0 6px 6px;
+}
+.user-tougao{
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;  
+}
+.user-up-nav{
+    width: 144px;
+    position: absolute;
+    right: 0;
+    top: 45px;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    overflow: hidden;
+    z-index: 1;
+    display: none;
+}
+.user-up-nav li{
+    cursor: pointer;
+    text-align: center;
+    width: 72px;
+    height: 64px;
+    transition: .2s;
+    float: left;
+    position: relative;
+    background: #fff;
+}
+.user-up-nav li a{
+    color: #f25d8e;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.user-up-nav li a i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 15px auto 2px;
+    transition: .2s;
+}
+.tg-duanzi{
+    background-image: url("../../static/tgduanzi.jpg");
+}
+.tg-shiping{
+    background-image: url("../../static/tgshiping.jpg");
+}
+/* 鼠标在投稿上的行为 */
+.user-contribute:hover .user-up-nav{
+    display: block;
+}
+.user-up-nav li:hover{
+    background: rgb(221, 205, 205);
+}

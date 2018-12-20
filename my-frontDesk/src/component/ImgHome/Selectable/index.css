@@ -1,0 +1,21 @@
+/* 可选择的选项 */
+/* 分类选择 */
+.selectable-content{
+    width: 100%;
+}
+
+.selectable-content li{
+    float: left;
+    font-size: 14px;
+    padding: 4px 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.selectable-content li:hover{
+    background-color: coral;
+}
+.is{
+    padding: 10px 20px; 
+}
+

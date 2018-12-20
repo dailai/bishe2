@@ -1,0 +1,63 @@
+
+.cig-d{
+    width: 100%;
+    padding: 0;
+}
+
+.cig-item{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px; 
+}
+
+.cig-a{
+    width: 182px;
+    height: 163px;
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.cig-a:hover{
+    color:#FF7966;
+}
+
+.cig-img{
+    width: 182px;
+    height: 116px;
+    border-radius: 8px;
+}
+.cig-a em{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 162px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    margin: 12px auto 0;
+    cursor: pointer;
+}
+
+.cig-tit{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 12px;
+    padding: 0 10px;
+    background-color: #FF7966;
+    text-align: center;
+    color: #fff;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 10px;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+
+
