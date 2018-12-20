@@ -1,0 +1,16 @@
+.video-preview{
+    width: 100%;
+    height: 350px;
+
+    background-color: coral;
+}
+
+#video{
+    float: left;
+}
+#capture{
+    float: left;
+}
+#output{
+    float: left;
+}

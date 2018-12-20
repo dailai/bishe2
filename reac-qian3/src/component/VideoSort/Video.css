@@ -1,0 +1,84 @@
+.l-item-li{
+    float: left;
+    width: 450px;
+    border-bottom: 1px solid #e5e9ef;
+}
+
+.l-item-li .l-item{
+    height: 173px;
+    padding: 20px 20px 20px 0;
+    margin-right: 20px;
+    width: 441px;
+    border-right: 1px solid #e5e9ef;
+}
+
+.l-item-li .l-item .l{
+    float: left;
+    height: 100px;
+    margin-right: 20px;
+    padding-top: 0;
+}
+
+.l-item-li .l-item .r{
+    float: left;
+    width: 240px;
+}
+
+.l-item-li .l-item .r .title{
+    max-height: 40px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    color: #222;
+    font-size: 12px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.l-item-li .l-item .r .title:hover{
+    color: rgb(61, 87, 202);
+}
+
+.l-item-li .l-item .r .v-desc{
+    color: #99a2aa;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-top: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    line-height: 20px;
+    height: 54px;
+    clear: both;
+}
+
+.l-item-li .l-item .r .v-info{
+    float: right;
+}
+
+.l-item-li .l-item .r .v-info .v-info-i{
+    color: #99a2aa;
+    float: left;
+    width: 70px;
+    height: 12px;
+    line-height: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.l-item-li .l-item .r .up-info{
+    float: left;
+    line-height: 12px;
+}
+
+.l-item-li .l-item .r .up-info .v-author{
+    display: inline-block;
+    vertical-align: top;
+    color: #99a2aa;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 16px;
+}
+
+

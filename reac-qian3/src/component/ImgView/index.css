@@ -1,0 +1,115 @@
+/* 大标题 */
+.iv-title-con{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+
+/* 时间信息 */
+.info-o{
+    width: 100%;
+    height: 30;
+    line-height: 30px; 
+    font-size: 14px;
+}
+.info-o span{
+    float: right;
+    margin-right: 50px;
+}
+
+/* 图片显示区域 */
+.pic-show-area{
+    width: 100%;
+}
+.pic-show{
+    position: relative;
+}
+
+/* 包裹图片的div */
+.pa-pic{
+    position: relative;
+    overflow: hidden;
+    vertical-align: baseline;
+    margin: 0 auto;
+}
+/* 上一张和下一张 */
+.pic-show span{
+    width: 50px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+} 
+.pic-show span:hover{
+    background-color: rgb(153, 143, 143);
+}
+
+.pic-prev{
+    position: absolute;
+    display: block;
+    top:0px;
+    left: 0px;
+    
+}
+.pic-next{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+
+
+
+/* 点赞信息 */
+.info-t{
+    width: 100%;
+    height:71px;
+    font-size: 13px;
+    color: rgb(151, 144, 144);
+
+}
+.if-t{
+    width: 50%;
+    height: 35px;
+    margin: 0 auto;
+    padding: 18px 0;
+}
+.dz-if{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+}
+.dz-if i{
+    float: left;
+    width: 37px;
+    height: 35px;
+    background-image: url('../../static/kedianzan.jpg');
+}
+.dz-if i:hover{
+    background-image: url('../../static/yidianzan.jpg');
+}
+
+/* 手动轮播,手动选择 */
+.more-iv{
+    width: 100%;
+    height: 150px;
+
+    background-color: aqua;
+}
+.m-i-pa{
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+    height:126px;
+}
+.pi-lh{
+    width: 980px;
+    border-radius: 8px;
+    border: 1px solid rgb(158, 154, 154);
+    height: 126px;
+}
+
+
+

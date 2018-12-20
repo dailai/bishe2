@@ -1,0 +1,53 @@
+
+/* header最外层 */
+#header-sphere{
+    height: 210px;
+}
+
+/* header装饰里面的内容 */
+.header-decorate{
+    width: 100%;
+    height: 180px;
+    /* background-image: url(https://luo20181213.oss-cn-shenzhen.aliyuncs.com/2018-12-14/e92e523816b748429b5f624855a64b7d-87e0b37441cd50025c0be41203b9662b520dc1e0.png); */
+    background-repeat: no-repeat;
+    background-position: center ;
+    position: relative;
+    z-index: 0;
+    margin-top: -45px;
+}
+
+
+/* 导航栏 */
+.header_linker{
+    width: 1160px;
+    height: 45px;
+    margin: 0 auto;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.header_linker .header-nav-menu .nav-menu{
+    border-bottom: 1px solid #e5e9ef;
+}
+.header_linker .header-nav-menu .nav-menu li{
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+
+.header_linker .header-nav-menu .nav-menu li .on{
+    color: rgb(61, 61, 207);
+    border-bottom: 2px solid rgb(61, 61, 207);
+}
+
+.header_linker .header-nav-menu .nav-menu li a{
+    padding: 10px 10px;
+    color: #000000;
+}
+
+
+
+
+
+
+
