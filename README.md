@@ -4,7 +4,7 @@
 1. javabishe是包含了前台后台的java代码
     * admin是后台项目
     * core是核心项目
-    * front-desk
+    * front-desk是前台项目
 2. my-admin是后台界面
 3. my-frontDesk是前台界面
 
