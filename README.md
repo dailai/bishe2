@@ -1,5 +1,4 @@
-# react+springboot毕业设计（未完成）
-**2016界一个大专生的毕业设计**
+# react+springboot《视频网站》 （未完成）
 
 ## 介绍下目录文件
 1. javabishe是包含了前台后台的java代码
@@ -18,16 +17,50 @@
     若是需要启动添加里面需要的jar外即可，我运行的java是1.8
 3. core项目  
     包含了实体类，dao层，service层，前后台都可以用到的类
-4. myadmin项目  
-    使用了蚂蚁金服的ant-design-pro  
+4. my-admin项目  
+    使用了蚂蚁金服的ant-design-pro，此外没有添加额外的模块 
     下载依赖  
     npm install  
     运行  
     npm start  
 5. my-frontDesk项目  
     create-react-app搭建的项目  
+    添加的模块：axios,jquery,antd,redux,react-router-dom,video-react
     下载依赖  
     npm install  
     运行  
     npm start  
+
+# 前台模块
+1. 用户模块
+    * 注册
+    * 登陆
+    * 修改密码
+2. 视频模块
+    * 视频列表
+    * 分类视频
+    * 视频推荐
+    * 视频播放
+    * 视频上传
+# 后台模块
+1. 管理员模块
+    * 登陆
+    * 注册
+    * 修改密码
+    * 修改个人信息
+    * （超级管理员admin）
+        * 查看管理员列表
+        * 查看管理员信息
+        * 分配角色
+2. 前台用户管理模块
+    * 用户列表
+    * 用户冻结
+    * 用户详细信息
+    * 用户删除
+3. 视频管理
+    * 视频列表
+    * 视频审核
+    * 高级搜索
+
+
 
