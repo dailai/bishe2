@@ -42,13 +42,14 @@
     下载依赖  
     `npm install`  
     运行  
-    `npm start`    
+    `npm start`
+    访问http://localhost:8000/
 4.  my-frontDesk项目  
     下载依赖  
     `npm install`    
     运行  
     `npm start`    
-
+    访问http://localhost:8079/
 
 
 
