@@ -15,13 +15,14 @@ export default {
   effects: {
     *login({ payload }, { call, put }) {
       const response = yield call(fakeAccountLogin, payload);
-      console.log("登陆响应："+JSON.stringify(response))
+      const { role } = response.data;
+      const status = true;
       yield put({
         type: 'changeLoginStatus',
-        payload: response,
+        payload: { role, status },
       });
       // Login successfully
-      if (response.status === 'ok') {
+      if (response.status === 'ok' && response.code === 200 ) {
         reloadAuthorized();
         const urlParams = new URL(window.location.href);
         const params = getPageQuery();
@@ -68,11 +69,11 @@ export default {
 
   reducers: {
     changeLoginStatus(state, { payload }) {
-      setAuthority(payload.data.currentAuthority);
+      const { role, status } = payload;
+      setAuthority(role);
       return {
         ...state,
-        status: payload.status,
-        // type: payload.type,
+        status: status,
       };
     },
   },

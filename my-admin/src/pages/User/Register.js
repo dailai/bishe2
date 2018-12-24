@@ -94,12 +94,10 @@ class Register extends Component {
     const { form, dispatch } = this.props;
     form.validateFields({ force: true }, (err, values) => {
       if (!err) {
-        const { prefix } = this.state;
         dispatch({
           type: 'register/submit',
           payload: {
             ...values,
-            prefix,
           },
         });
       }
@@ -183,22 +181,21 @@ class Register extends Component {
           <FormattedMessage id="app.register.register" />
         </h3>
         <Form onSubmit={this.handleSubmit}>
+
           <FormItem>
-            {getFieldDecorator('mail', {
-              rules: [
-                {
-                  required: true,
-                  message: formatMessage({ id: 'validation.email.required' }),
-                },
-                {
-                  type: 'email',
-                  message: formatMessage({ id: 'validation.email.wrong-format' }),
-                },
-              ],
+            {getFieldDecorator('name', {
             })(
-              <Input size="large" placeholder={formatMessage({ id: 'form.email.placeholder' })} />
+              <Input size="large" placeholder={formatMessage({ id: 'form.name.placeholder' })} />
             )}
           </FormItem>
+
+          <FormItem>
+            {getFieldDecorator('username', {
+            })(
+              <Input size="large" placeholder={formatMessage({ id: 'form.username.placeholder' })} />
+            )}
+          </FormItem>
+        
           <FormItem help={help}>
             <Popover
               getPopupContainer={node => node.parentNode}
@@ -250,6 +247,22 @@ class Register extends Component {
             )}
           </FormItem>
           <FormItem>
+            {getFieldDecorator('mail', {
+              rules: [
+                {
+                  required: true,
+                  message: formatMessage({ id: 'validation.email.required' }),
+                },
+                {
+                  type: 'email',
+                  message: formatMessage({ id: 'validation.email.wrong-format' }),
+                },
+              ],
+            })(
+              <Input size="large" placeholder={formatMessage({ id: 'form.email.placeholder' })} />
+            )}
+          </FormItem>
+          <FormItem>
             <InputGroup compact>
               <Select
                 size="large"
@@ -280,37 +293,7 @@ class Register extends Component {
               )}
             </InputGroup>
           </FormItem>
-          <FormItem>
-            <Row gutter={8}>
-              <Col span={16}>
-                {getFieldDecorator('captcha', {
-                  rules: [
-                    {
-                      required: true,
-                      message: formatMessage({ id: 'validation.verification-code.required' }),
-                    },
-                  ],
-                })(
-                  <Input
-                    size="large"
-                    placeholder={formatMessage({ id: 'form.verification-code.placeholder' })}
-                  />
-                )}
-              </Col>
-              <Col span={8}>
-                <Button
-                  size="large"
-                  disabled={count}
-                  className={styles.getCaptcha}
-                  onClick={this.onGetCaptcha}
-                >
-                  {count
-                    ? `${count} s`
-                    : formatMessage({ id: 'app.register.get-verification-code' })}
-                </Button>
-              </Col>
-            </Row>
-          </FormItem>
+
           <FormItem>
             <Button
               size="large"

@@ -79,7 +79,7 @@ class Center extends PureComponent {
                       <i className={styles.title} />
                       {currentUser.title}
                     </p>
-                    <p>
+                    {/* <p>
                       <i className={styles.group} />
                       {currentUser.group}
                     </p>
@@ -87,10 +87,10 @@ class Center extends PureComponent {
                       <i className={styles.address} />
                       {currentUser.geographic.province.label}
                       {currentUser.geographic.city.label}
-                    </p>
-                  </div> */}
+                    </p> */}
+                  </div>
                   <Divider dashed />
-                  <div className={styles.tags}>
+                  {/* <div className={styles.tags}>
                     <div className={styles.tagsTitle}>标签</div>
                     {currentUser.tags.concat(newTags).map(item => (
                       <Tag key={item.key}>{item.label}</Tag>
@@ -115,7 +115,7 @@ class Center extends PureComponent {
                         <Icon type="plus" />
                       </Tag>
                     )}
-                  </div>
+                  </div> */}
                   <Divider style={{ marginTop: 16 }} dashed />
                 
                 </div>

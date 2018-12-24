@@ -23,8 +23,7 @@ export default {
       const response = yield call(queryCurrent);
       yield put({
         type: 'saveCurrentUser',
-        // payload: response.data.currentUser,
-        payload: response,                    //测试的mock数据
+        payload: response.data.currentUser,
       });
     },
     *fetchSave({ payload }, { call, put }){
@@ -46,7 +45,6 @@ export default {
 
   reducers: {
     save(state, action) {
-
       const list = addkey(action.payload);
       return {
         ...state,

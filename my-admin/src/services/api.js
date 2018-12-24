@@ -70,14 +70,14 @@ export async function fakeAccountLogin(params) {        //登陆
   const formData = new FormData()
   formData.append("username",params.userName);
   formData.append("password",params.password);
-  return request('/admin/login', {
+  return request('/server/login', {
     method: 'POST',
     body: formData,
   });
 }
 
-export async function fakeRegister(params) {
-  return request('/api/register', {
+export async function queryRegister(params) {
+  return request('/server/admin/jp', {
     method: 'POST',
     body: params,
   });

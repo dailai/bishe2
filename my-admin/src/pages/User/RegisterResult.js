@@ -7,11 +7,11 @@ import styles from './RegisterResult.less';
 
 const actions = (
   <div className={styles.actions}>
-    <a href="">
+    {/* <a href="">
       <Button size="large" type="primary">
         <FormattedMessage id="app.register-result.view-mailbox" />
       </Button>
-    </a>
+    </a> */}
     <Link to="/">
       <Button size="large">
         <FormattedMessage id="app.register-result.back-home" />
@@ -20,7 +20,11 @@ const actions = (
   </div>
 );
 
-const RegisterResult = ({ location }) => (
+
+// location: {"pathname":"/user/register-result","search":"","hash":"","query":{},"state":{"account":"456789@126.com"},"key":"44cw77"}
+const RegisterResult = ({ location }) => {
+  return (
+  
   <Result
     className={styles.registerResult}
     type="success"
@@ -28,14 +32,14 @@ const RegisterResult = ({ location }) => (
       <div className={styles.title}>
         <FormattedMessage
           id="app.register-result.msg"
-          values={{ email: location.state ? location.state.account : 'AntDesign@example.com' }}
+          values={{ email: location.state ? location.state.account : '' }}
         />
       </div>
     }
-    description={formatMessage({ id: 'app.register-result.activation-email' })}
+    // description={formatMessage({ id: 'app.register-result.activation-email' })}
     actions={actions}
     style={{ marginTop: 56 }}
   />
-);
+)};
 
 export default RegisterResult;

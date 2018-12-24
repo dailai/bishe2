@@ -1,6 +1,7 @@
 export default [
   // user
   {
+
     path: '/user',
     component: '../layouts/UserLayout',
     routes: [
@@ -27,29 +28,32 @@ export default [
     path: '/',
     component: '../layouts/BasicLayout',
     Routes: ['src/pages/Authorized'],
-    authority: ['admin', 'user'],
+    authority: ['admin', 'user','guest'],
     routes: [
-      // dashboard
+
       { 
         path: '/', 
-        redirect: '/home/welcome' 
+        redirect: '/dashboard/welcome' 
       },
+
       {
-        path: '/home',
-        name: 'home',
-        icon: 'home',
+        path: '/dashboard',
+        name: 'dashboard',
+        icon: 'dashboard',
         routes:[
           {
-            path: '/home/welcome',
+            path: '/dashboard/welcome',
             name: 'welcome',
-            component: './Home/Welcome',
+            component: './Dashboard/Welcome',
           },
+
         ]
       },
       {
         path: '/usermanager',
         name: 'usermanager',
         icon: 'table',
+        authority: ['admin', 'user'],
         routes:[
           {
             path: '/usermanager/user',
@@ -79,6 +83,7 @@ export default [
         path: '/contentmanager',
         name: 'contentmanager',
         icon: 'table',
+        authority: ['admin', 'user'],
         routes:[
           {
             path: '/contentmanager/video',
@@ -112,6 +117,7 @@ export default [
         path: '/sysusermanager',
         name: 'sysusermanager',
         icon: 'check-circle-o',
+        authority: ['admin'],
         routes:[
           {
             path: '/sysusermanager/user-list',
@@ -159,6 +165,7 @@ export default [
         name: 'account',
         icon: 'user',
         path: '/account',
+        // authority: ['admin','user'],
         routes: [
           {
             path: '/account/center',
