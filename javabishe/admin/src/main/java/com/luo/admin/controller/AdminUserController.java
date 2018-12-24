@@ -41,7 +41,7 @@ public class AdminUserController {
     public JSONResult getCurrentUser(){
         Object object = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         if( object instanceof String ){    // 游客登陆
-            return JSONResult.success().put("currentUser",adminUserRepository.findAdminUserByName("111"));
+            return JSONResult.success().put("currentUser",adminUserRepository.findAdminUserByName("游客1212"));
         }
         AdminUserDetails adminUserDetails = (AdminUserDetails) object;
         AdminUser adminUser = adminUserDetails.getAdminUser();
