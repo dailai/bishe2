@@ -46,9 +46,8 @@ public class AdminUserDetailsService implements UserDetailsService {
 
             AdminRole adminRole = adminRoleRepository.getAdminRoleByAdminUserId(user.getId());
             Role role = roleRepository.getOne(adminRole.getRoleId());
-            System.out.println("===============:"+adminRole);
-            System.out.println("===============:"+role);
-            System.out.println("===============数据库获取用户："+user);
+            System.out.println("===============用户："+user);
+            System.out.println("===============角色："+role);
             user.setRole(role);
             return new AdminUserDetails(user);
         } else {
