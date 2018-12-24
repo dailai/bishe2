@@ -1,23 +1,37 @@
 package com.luo.admin.controller;
 
+import com.luo.admin.authorize.AdminUserDetails;
 import com.luo.core.entitys.AdminUser;
 import com.luo.core.entitys.Role;
 import com.luo.core.libs.JSONResult;
+import com.luo.core.libs.StatusCode;
+import com.luo.core.repositories.AdminRoleRepository;
 import com.luo.core.repositories.AdminUserRepository;
+import com.luo.core.repositories.RoleRepository;
+import com.luo.core.service.AdminUserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/adminUser")
+@Slf4j
+@RequestMapping("/admin")
 public class AdminUserController {
 
     @Autowired
     AdminUserRepository adminUserRepository;
+
+    @Autowired
+    RoleRepository roleRepository;
+
+    @Autowired
+    AdminRoleRepository adminRoleRepository;
+
+    @Autowired
+    AdminUserService adminUserService;
 
     /**
      * 获取当前用户
@@ -25,27 +39,14 @@ public class AdminUserController {
      */
     @RequestMapping(value = "/current",method = RequestMethod.GET)
     public JSONResult getCurrentUser(){
-//        AdminUserDetails adminUserDetails = (AdminUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        JSONResult jsonResult = new JSONResult();
-        Role role = new Role(1,"admin");
-        AdminUser adminUser = new AdminUser();
-        adminUser.setId(1);
-        adminUser.setCreateTime("2018-12-06 19:03:00.0");
-        adminUser.setUsername("123");
-        adminUser.setPassword("123");
-        adminUser.setName("name");
-        adminUser.setStatus(1);
-        adminUser.setAvatar("http://localhost:8089/BiazfanxmamNRoxxVxka.png");
-        adminUser.setEmail("123");
-        adminUser.setSignature("123");
-        adminUser.setTitle("123");
-        adminUser.setPhone("123");
-        adminUser.setRole(role);
+        Object object = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if( object instanceof String ){    // 游客登陆
+            return JSONResult.success().put("currentUser",adminUserRepository.findAdminUserByName("111"));
+        }
+        AdminUserDetails adminUserDetails = (AdminUserDetails) object;
+        AdminUser adminUser = adminUserDetails.getAdminUser();
 
-        jsonResult.put("currentUser",adminUser);
-//        jsonResult.put("currentUser",adminUserDetails.getAdminUser());
-
-        return jsonResult;
+        return JSONResult.success().put("currentUser",adminUser);
     }
 
     /**
@@ -107,19 +108,23 @@ public class AdminUserController {
         return jsonResult;
     }
 
+    /**
+     *  注册
+     * @param adminUser
+     * @return
+     */
     @RequestMapping(value="/register",method = RequestMethod.POST)
-    public JSONResult register(@RequestParam(name = "name",defaultValue = "")String name,
-                               @RequestParam(name = "username",defaultValue = "")String username,
-                               @RequestParam(name = "password",defaultValue = "")String password,
-                               @RequestParam(name = "email",defaultValue = "")String email,
-                               @RequestParam(name = "phone",defaultValue = "")String phone){
-        AdminUser adminUser = new AdminUser();
-        adminUser.setName(name);
-        adminUser.setUsername(username);
-        adminUser.setPassword(password);
-        adminUser.setEmail(email);
-        adminUser.setPhone(phone);
-        AdminUser  newAdminUser=adminUserRepository.save(adminUser);
-        return new JSONResult();
+    public JSONResult register(@RequestBody AdminUser adminUser){
+        AdminUser existAdminUser = adminUserRepository.
+                findAdminUserByNameOrUsernameOrEmailOrPhone(adminUser.getName(),adminUser.getUsername(),adminUser.getEmail(),adminUser.getPhone());
+        if( existAdminUser != null){
+            return JSONResult.success(StatusCode.REGISTER_ERROR).put("msg","用户基本信息重复注册！");
+        }
+        boolean res = adminUserService.register(adminUser);
+        if(!res){
+            return JSONResult.success(StatusCode.REGISTER_ERROR).put("msg","用户信息保存失败！");
+        }
+        return JSONResult.success();
     }
+
 }
