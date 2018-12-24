@@ -15,4 +15,12 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 public interface AdminUserRepository extends JpaRepository<AdminUser, Long>, JpaSpecificationExecutor<AdminUser> {
 
     AdminUser findAdminUserByUsername(String username);
+
+    AdminUser findAdminUserByName(String name);
+
+    AdminUser findAdminUserByNameOrUsernameOrEmailOrPhone(String name,
+                                                          String username,
+                                                          String Email,
+                                                          String Phone);
+
 }

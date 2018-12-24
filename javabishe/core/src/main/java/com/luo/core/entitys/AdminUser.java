@@ -55,6 +55,9 @@ public class AdminUser extends BaseEntity {
     private String phone;
 
 
+//    @Column(columnDefinition = "int(5) not null default 3 comment '角色'")
+//    private int role;
+
     @Transient
     private Role role;
 
