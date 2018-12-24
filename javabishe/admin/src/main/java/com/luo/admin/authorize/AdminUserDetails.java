@@ -57,7 +57,6 @@ public class AdminUserDetails implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        System.out.println(" ======================="+adminUser);
-        return adminUser.getStatus() == 1;
+        return adminUser.getStatus() == 0;
     }
 }
