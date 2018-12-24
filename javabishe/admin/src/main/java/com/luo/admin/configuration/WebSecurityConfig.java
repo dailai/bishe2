@@ -20,8 +20,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.util.DigestUtils;
 
 
-//@Configuration
-//@EnableWebSecurity
+@Configuration
+@EnableWebSecurity
 //@EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
@@ -42,14 +42,11 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .passwordEncoder(new PasswordEncoder() {
                     @Override
                     public String encode(CharSequence charSequence) {
-                        System.out.println("=========================="+ DigestUtils.md5DigestAsHex(charSequence.toString().getBytes()));
                         return DigestUtils.md5DigestAsHex(charSequence.toString().getBytes());
                     }
 
                     @Override
                     public boolean matches(CharSequence charSequence, String s) {
-                        System.out.println("======================="+ DigestUtils.md5DigestAsHex(charSequence.toString().getBytes()));
-                        System.out.println("======================="+s.equals(DigestUtils.md5DigestAsHex(charSequence.toString().getBytes())));
                         return s.equals(DigestUtils.md5DigestAsHex(charSequence.toString().getBytes()));
                     }
                 });
@@ -61,8 +58,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             //http.authorizeRequests()方法有多个子节点，每个macher按照他们的声明顺序执行
             .authorizeRequests()
             //我们指定任何用户都可以访问多个URL的模式。
-            //任何用户都可以访问以"/","/home","/dist/**"，"**.ico"开头的URL。
-            .antMatchers("/*","/admin/register").permitAll()//permitAll() 方法是运行所有权限用户包含匿名用户访问。
+            .antMatchers("/*","/admin/*").permitAll()//permitAll() 方法是运行所有权限用户包含匿名用户访问。
             //尚未匹配的任何URL都要求用户进行身份验证
             .anyRequest().authenticated()
 
@@ -77,20 +73,17 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 AdminUser adminUser = adminUserDetails.getAdminUser();
                 JSONResult result = new JSONResult();
 //                    result.put("adminUser", adminUser);
-                result.put("currentAuthority", adminUser.getRole().getName());
+                result.put("role", adminUser.getRole().getName());
 
                 RenderUtils.renderJson(response, result);
             })
             .failureHandler((request, response, exception) -> {
                 if (exception instanceof BadCredentialsException) {
-//                        RenderUtils.renderJson(response, new JSONResult(ErrorCode.BAD_CREDENTIALS, "账号或密码错误"));
-                    RenderUtils.renderJson(response, JSONResult.success());
+                    RenderUtils.renderJson(response, "账号或密码错误");
                 } else if (exception instanceof DisabledException) {
-                    RenderUtils.renderJson(response, JSONResult.success());
-//                        RenderUtils.renderJson(response, new JSONResult(ErrorCode.USER_DISABLED, "此账户已被禁用"));
+                    RenderUtils.renderJson(response, "此账户已被禁用");
                 } else {
-                    RenderUtils.renderJson(response, JSONResult.success());
-//                        RenderUtils.renderJson(response, new JSONResult(ErrorCode.UNKNOWN, "未知错误"));
+                    RenderUtils.renderJson(response, "未知错误");
                 }
             })
 
