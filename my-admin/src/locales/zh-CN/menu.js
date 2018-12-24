@@ -1,6 +1,7 @@
 export default {
   'menu.home': '首页',
-  'menu.home.welcome':'欢迎页',
+  'menu.dashboard': 'dashboard',
+  'menu.dashboard.welcome':'欢迎页',
   'menu.usermanager':'用户管理',
   'menu.usermanager.userlist':'用户列表',
   'menu.usermanager.userlist.userinfo':'用户详情信息',
