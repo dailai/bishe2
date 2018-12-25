@@ -15,11 +15,14 @@ export default {
   effects: {
     *login({ payload }, { call, put }) {
       const response = yield call(fakeAccountLogin, payload);
+      console.log("登陆："+JSON.stringify(response))
       const { role } = response.data;
-      const status = true;
       yield put({
         type: 'changeLoginStatus',
-        payload: { role, status },
+        payload: { 
+          currentAuthority: role, 
+          status: true
+        },
       });
       // Login successfully
       if (response.status === 'ok' && response.code === 200 ) {
@@ -39,6 +42,7 @@ export default {
             return;
           }
         }
+        console.log('redirect:'+redirect)
         yield put(routerRedux.replace(redirect || '/'));
       }
     },
@@ -69,8 +73,8 @@ export default {
 
   reducers: {
     changeLoginStatus(state, { payload }) {
-      const { role, status } = payload;
-      setAuthority(role);
+      const { currentAuthority, status } = payload;
+      setAuthority(currentAuthority);
       return {
         ...state,
         status: status,
