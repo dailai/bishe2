@@ -1,6 +1,6 @@
 import { 
     query, 
-    queryUpload, 
+    querySubmit, 
     queryRemove,
     queryChangeStatus
     } from '@/services/bigimg';
