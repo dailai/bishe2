@@ -16,33 +16,37 @@ export default {
   effects: {
     *fetch(_,{ call, put }){
         const response = yield call(query);
+        const { data } = response;
         yield put({
             type: 'save',
-            payload: response.data,
+            payload: data,
         });
     },
     
-    *fetchUpload( { payload }, { call, put }){
-        const response = yield call(queryUpload, payload);
+    *fetchSubmit( { payload }, { call, put }){
+        const response = yield call(querySubmit, payload);
+        const { data } = response;
         yield put({
             type: 'save',
-            payload: response.data,
+            payload: data,
         });
     },
 
     *fetchRemove( { payload }, { call, put }){
         const response = yield call(queryRemove, payload);
+        const { data } = response;
         yield put({
             type: 'save',
-            payload: response,
+            payload: data,
         });
     },
 
     *changeStatus( { payload }, { call, put }){
         const response = yield call(queryChangeStatus, payload.changeData);
+        const { data } = response;
         yield put({
             type: 'save',
-            payload: payload,
+            payload: data,
         });
     }
   },

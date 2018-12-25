@@ -4,7 +4,7 @@ export async function query() {
     return request('/server/bigimg/list');
 }
 
-export async function queryUpload({ name, title, width, height, url }) {
+export async function querySubmit({ name, title, width, height, url }) {
     let formData = new FormData();
     formData.append('name',name);
     formData.append('title',title);

@@ -52,19 +52,6 @@ export default class BigImg extends PureComponent {
     });
   }
 
-  handleFormReset = () => {
-    // const { form, dispatch } = this.props;
-    const { dispatch } = this.props;
-    // form.resetFields();
-    this.setState({
-      formValues: {},
-    });
-    dispatch({
-      type: 'video/videos',
-      payload: {},
-    });
-  };
-
   toggleForm = () => {
     const { expandForm } = this.state;
     this.setState({
@@ -72,7 +59,7 @@ export default class BigImg extends PureComponent {
     });
   };
 
-  // 处理上传文件
+  // 处理上传文件变化
   handleChange = (info) => {
     const file = info.file;
     let fileList = info.fileList;
@@ -117,8 +104,8 @@ export default class BigImg extends PureComponent {
     });
   };
 
-  // 处理上传
-  handleUpload = e => {
+  // 处理提交
+  handleSubmit = e => {
     e.preventDefault();
     const { uploadBigImgSrc } = this.state;
     const { dispatch, form } = this.props;
@@ -136,9 +123,10 @@ export default class BigImg extends PureComponent {
       });
       console.log( values )
       dispatch({
-        type: 'bigimg/fetchUpload',
+        type: 'bigimg/fetchSubmit',
         payload: values,
       });
+      this.handleFormReset()
     });
   };
 
@@ -151,7 +139,7 @@ export default class BigImg extends PureComponent {
     } = this.props;
     const props = {
       // name: 'file',
-      action: '/server/upload/up',
+      action: '/server/upload/uposs',
       // headers: {
       //   authorization: 'authorization-text',
       // },
@@ -159,7 +147,7 @@ export default class BigImg extends PureComponent {
       onChange: this.handleChange,
     };
     return (
-      <Form onSubmit={this.handleUpload} layout="inline">
+      <Form onSubmit={this.handleSubmit} layout="inline">
         <Row gutter={{ md: 8, lg: 24, xl: 48 }}>
           <Col md={8} sm={24}>
             <FormItem label="操作人名字">

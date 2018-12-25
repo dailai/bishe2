@@ -43,7 +43,7 @@ public class UploadController {
             file.transferTo(newFile);
             System.out.println("文件大小："+newFile.length());
             //上传到OSS
-            String url = AliyunOSSUtil.partUpload(newFile);
+            String url = AliyunOSSUtil.upload(newFile);
             JSONResult jsonResult = new JSONResult();
             newFile.delete();
             return jsonResult.put("url",url);         //返回资源路径
