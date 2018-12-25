@@ -1,7 +1,7 @@
 import request from '@/utils/request';
 
 
-export async function videos(params) {
+export async function queryVideos(params) {
     let urlParams = '';
     if(params){
         if(params.currentPage){
@@ -11,7 +11,6 @@ export async function videos(params) {
             urlParams += 'size='+params.pageSize+'&';
         }
         if(params.checkStatus){
-            console.log(params.values)
             urlParams += 'checkStatus='+params.checkStatus+'&';
         }
         if(params.nickname){
@@ -20,7 +19,6 @@ export async function videos(params) {
         if(params.showStatus){
             urlParams += 'showStatus='+params.showStatus+'&';
         }
-            
         
     }
     return request('/server/video/list?'+urlParams);
