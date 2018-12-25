@@ -1,4 +1,4 @@
-import { videos, queryInfo } from '@/services/video';
+import { queryVideos, queryInfo } from '@/services/video';
 import { addkey } from '@/utils/addKey';
 
 export default {
@@ -11,7 +11,7 @@ export default {
 
   effects: {
     *fetch({ payload }, { call, put }) {
-      const response = yield call(videos,payload);
+      const response = yield call(queryVideos,payload);
       yield put({
         type: 'save',
         payload: response.data,

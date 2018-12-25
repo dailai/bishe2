@@ -168,20 +168,19 @@ class VideoList extends PureComponent {
     }
 
     dispatch({
-      type: 'video/videos',
+      type: 'video/fetch',
       payload: params,
     });
   };
 
   handleFormReset = () => {
     const { form, dispatch } = this.props;
-    console.log("form:"+JSON.stringify(form))
     form.resetFields();
     this.setState({
       formValues: {},
     });
     dispatch({
-      type: 'video/videos',
+      type: 'video/fetch',
       payload: {},
     });
   };

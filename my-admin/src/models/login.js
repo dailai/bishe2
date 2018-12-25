@@ -15,7 +15,6 @@ export default {
   effects: {
     *login({ payload }, { call, put }) {
       const response = yield call(fakeAccountLogin, payload);
-      console.log("登陆："+JSON.stringify(response))
       const { role } = response.data;
       yield put({
         type: 'changeLoginStatus',
