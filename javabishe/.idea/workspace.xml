@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a90e3f62-c6dc-4f99-815d-43af3194d4fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/luo/core/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/luo/core/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/VideoCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/VideoCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/StatusCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/luo/core/repositories/BigImgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/luo/core/repositories/BigImgRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoCatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-desk/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/front-desk/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-admin/src/components/TopNavHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-admin/src/components/TopNavHeader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-admin/src/pages/Home/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-admin/src/pages/Home/Welcome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/scripts/start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetDynamicVideo/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetDynamicVideo/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetDynamicVideo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetDynamicVideo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetFilterVideo/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetFilterVideo/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetFilterVideo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/NewsetFilterVideo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/UploadVideo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/UploadVideo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/VideoSort/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/VideoSort/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/component/VideoSort/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/component/VideoSort/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/Account/Center.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/User/Upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/pages/Video/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/pages/Video/View.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reac-qian3/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../reac-qian3/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/VideoUtile.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/VideoUtile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-desk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/front-desk/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +26,9 @@
     <session id="-1152469806">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -60,10 +37,13 @@
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.75" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,7 +65,7 @@
           <entry key="class" value="2" />
           <entry key="cmd" value="1" />
           <entry key="gif" value="2" />
-          <entry key="java" value="175" />
+          <entry key="java" value="183" />
           <entry key="properties" value="16" />
           <entry key="xml" value="23" />
         </counts>
@@ -94,10 +74,59 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="175" />
+          <entry key="JAVA" value="183" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="16" />
           <entry key="XML" value="23" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-541712661">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="gif" value="2" />
+          <entry key="java" value="41" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="41" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1148" />
+          <entry key="md" value="27" />
+          <entry key="xml" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1148" />
+          <entry key="Markdown" value="27" />
+          <entry key="XML" value="58" />
         </counts>
       </usages-collector>
     </session>
@@ -105,47 +134,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/BigImgController.java">
+        <entry file="file://$PROJECT_DIR$/admin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="528">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-desk/src/test/java/com/luo/frontdesk/BigImgRepsitoryTests.java">
+        <entry file="file://$PROJECT_DIR$/core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="75" column="36" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
-              <folding>
-                <element signature="e#2482#2489#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="781">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/front-desk/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+            <state relative-caret-position="396">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -164,6 +183,9 @@
     <findStrings>
       <find>JSONResult.</find>
       <find>fileUrl</find>
+      <find>Pagination</find>
+      <find>RenderUtils</find>
+      <find>System.out</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,17 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/TestService.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/TestController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/VideoController.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/configuration/CorsConfig.java" />
-        <option value="$PROJECT_DIR$/admin/pom.xml" />
-        <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/AjaxController.java" />
-        <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/configurations/CorsConfig.java" />
-        <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/lib/MySpecification.java" />
-        <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/lib/VideoSpecification.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/service/ImgService.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/service/ImgGatherService.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/service/VideoService.java" />
@@ -196,16 +207,11 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/VideoServiceImp.java" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/AdminApplication.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/JSONResult.java" />
-        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/configuration/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/ImgCatController.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/ImgController.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/ImgGatherController.java" />
-        <option value="$PROJECT_DIR$/front-desk/pom.xml" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/VideoUtile.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/PostObjectOSS.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/OssPostObject.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/AliyunOSSUtil.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoCatController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/StatusCode.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/BaseEntity.java" />
@@ -213,7 +219,6 @@
         <option value="$PROJECT_DIR$/front-desk/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/VideoCat.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/BigImgService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/service/BigImgService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/repositories/BigImgRepository.java" />
@@ -222,6 +227,24 @@
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/BigImgServiceImp.java" />
         <option value="$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/VideoUtile.java" />
+        <option value="$PROJECT_DIR$/admin/README.md" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/luo/core/AdminUserRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/admin/src/test/java/com/luo/admin/AdminUserRepositoryTests.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/AdminUser.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/service/AdminUserService.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/AdminUserServiceImp.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/authorize/AdminUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/authorize/AdminUserDetails.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/repositories/AdminUserRepository.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/AdminUserController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/luo/admin/configuration/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/AliyunOSSUtil.java" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/front-desk/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
       </list>
     </option>
   </component>
@@ -232,15 +255,22 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\repository" />
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="301" />
-    <option name="y" value="146" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="442" />
+    <option name="y" value="170" />
     <option name="width" value="1607" />
     <option name="height" value="982" />
   </component>
@@ -251,6 +281,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,196 +292,12 @@
             <path>
               <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
               <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
               <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frontdesk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frontdesk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabishe" type="462c0819:PsiDirectoryNode" />
-              <item name="front-desk" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frontdesk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,11 +308,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545297587393" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project/erp2.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545730200521" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/springboot-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -476,9 +323,11 @@
       <recent name="E:\workspace\bishe\javabishe\admin\src\main\java\com\luo\admin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luo.admin" />
       <recent name="com.luo.frontdesk.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\a-workspace\bishe\javabishe\admin\src\main\resources\static" />
       <recent name="E:\workspace\bishe\javabishe\front-desk\src\main\resources" />
       <recent name="E:\workspace\bishe\javabishe\front-desk\src\main\java\com\luo\frontdesk" />
     </key>
@@ -509,17 +358,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigImgRepsitoryTests.getByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="front-desk" />
+    <configuration name="AdminUserRepositoryTests.findAdminUserByNameOrUsernameOrEmailOrPhone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.luo.frontdesk.*" />
+          <option name="PATTERN" value="com.luo.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.luo.frontdesk" />
-      <option name="MAIN_CLASS_NAME" value="com.luo.frontdesk.BigImgRepsitoryTests" />
-      <option name="METHOD_NAME" value="getByStatus" />
+      <option name="PACKAGE_NAME" value="com.luo.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.luo.admin.AdminUserRepositoryTests" />
+      <option name="METHOD_NAME" value="findAdminUserByNameOrUsernameOrEmailOrPhone" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -592,17 +441,17 @@
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.FrontDeskApplication" />
       <item itemvalue="Application.OssPostObject" />
-      <item itemvalue="JUnit.BigImgRepsitoryTests.getByStatus" />
       <item itemvalue="JUnit.BigImgRepsitoryTests.getUrlByStatus" />
       <item itemvalue="JUnit.BigImgRepsitoryTests.getUrlsByCreateTime" />
       <item itemvalue="JUnit.BigImgRepsitoryTests.getUrlsByStatusAndCreateTime" />
+      <item itemvalue="JUnit.AdminUserRepositoryTests.findAdminUserByNameOrUsernameOrEmailOrPhone" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminUserRepositoryTests.findAdminUserByNameOrUsernameOrEmailOrPhone" />
         <item itemvalue="JUnit.BigImgRepsitoryTests.getUrlsByStatusAndCreateTime" />
         <item itemvalue="JUnit.BigImgRepsitoryTests.getUrlByStatus" />
         <item itemvalue="JUnit.BigImgRepsitoryTests.getUrlsByCreateTime" />
-        <item itemvalue="JUnit.BigImgRepsitoryTests.getByStatus" />
         <item itemvalue="Application.OssPostObject" />
       </list>
     </recent_temporary>
@@ -629,6 +478,22 @@
       <workItem from="1545228791103" duration="2091000" />
       <workItem from="1545265343832" duration="14572000" />
       <workItem from="1545292696335" duration="5029000" />
+      <workItem from="1545312185482" duration="767000" />
+      <workItem from="1545371379706" duration="600000" />
+      <workItem from="1545462483629" duration="437000" />
+      <workItem from="1545462930107" duration="225000" />
+      <workItem from="1545485986692" duration="774000" />
+      <workItem from="1545526441518" duration="149000" />
+      <workItem from="1545528399076" duration="184000" />
+      <workItem from="1545529454143" duration="198000" />
+      <workItem from="1545529920703" duration="352000" />
+      <workItem from="1545561821101" duration="628000" />
+      <workItem from="1545563499422" duration="413000" />
+      <workItem from="1545576680009" duration="2440000" />
+      <workItem from="1545613456354" duration="45000" />
+      <workItem from="1545634880818" duration="11346000" />
+      <workItem from="1545702791744" duration="23000" />
+      <workItem from="1545714368478" duration="9111000" />
     </task>
     <servers />
   </component>
@@ -660,15 +525,18 @@
     <history-entry file="BigImgRepsitoryTests_getUrlsByStatusAndCreateTime - 2018.12.20 at 16h 51m 09s.xml">
       <configuration name="BigImgRepsitoryTests.getUrlsByStatusAndCreateTime" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AdminUserRepositoryTests_findAdminUserByNameOrUsernameOrEmailOrPhone - 2018.12.23 at 23h 13m 07s.xml">
+      <configuration name="AdminUserRepositoryTests.findAdminUserByNameOrUsernameOrEmailOrPhone" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59649000" />
+    <option name="totallyTimeSpent" value="87341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -677,8 +545,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15418024" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13991323" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -686,7 +554,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.22801302" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5032538" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -709,218 +577,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/service/ImgService.java" />
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/service/ImgGatherService.java" />
-    <entry file="file://$PROJECT_DIR$/front-desk/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/ImgService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/specification/MySpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/specification/VideoSpecification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/ImgGatherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="76" column="81" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/VideoCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/lib/JSONResult.java" />
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/configuration/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="91" column="73" selection-start-line="91" selection-start-column="73" selection-end-line="91" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/ImgCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/ImgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/ImgGatherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-desk/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/ImageInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk1.8.0_191/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1104" column="19" selection-start-line="1104" selection-start-column="19" selection-end-line="1104" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/VideoUtile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/oss/aliyun-sdk-oss/2.8.3/aliyun-sdk-oss-2.8.3.jar!/com/aliyun/oss/OSSClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="642" column="5" lean-forward="true" selection-start-line="642" selection-start-column="5" selection-end-line="642" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk1.8.0_191/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="366" selection-start-line="366" selection-end-line="366" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/OssPostObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/huanying.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/JSONResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/AliyunOSSUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="105" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/ImgGatherServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/VideoServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/ImServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -939,20 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -977,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/BigImgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-desk/src/test/java/com/luo/frontdesk/FrontDeskApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1005,51 +640,309 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/BigImgServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/libs/JSONResult.java" />
+    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/BigImgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front-desk/src/test/java/com/luo/frontdesk/BigImgRepsitoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="550">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/VideoUtile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/AdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="1210">
           <caret line="75" column="36" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="36" />
-          <folding>
-            <element signature="e#2482#2489#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/BigImgServiceImp.java">
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/configuration/CorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="330">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/BigImgController.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/OssPostObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/libs/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/VideoCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/luo/core/AdminUserRepositoryTests.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/luo/core/CoreApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/test/java/com/luo/admin/AdminUserRepositoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/entitys/AdminUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/StatusCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-desk/src/main/java/com/luo/frontdesk/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+        <state relative-caret-position="1430">
+          <caret line="73" column="82" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/AdminUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/service/imp/AdminUserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/repository/org/springframework/security/spring-security-config/5.1.2.RELEASE/spring-security-config-5.1.2.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/static/huanying.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/repositories/AdminUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/libs/RenderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/authorize/AdminUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/authorize/AdminUserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/libs/JSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/configuration/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/configuration/ConstantProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#444#470#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/luo/core/utils/AliyunOSSUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/luo/admin/controller/BigImgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-desk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>

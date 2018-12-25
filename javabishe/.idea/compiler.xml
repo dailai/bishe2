@@ -9,6 +9,7 @@
         <module name="admin" />
         <module name="core" />
         <module name="front-desk" />
+        <module name="java-bishe" />
       </profile>
     </annotationProcessing>
   </component>
