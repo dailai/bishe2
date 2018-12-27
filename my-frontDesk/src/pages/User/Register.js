@@ -74,6 +74,7 @@ class Register extends Component {
         this.setState({ confirmDirty: this.state.confirmDirty || !!value });
     }
 
+    // 处理注册提交
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.form.validateFieldsAndScroll((err, values) => {
@@ -91,20 +92,26 @@ class Register extends Component {
     async handleSubmitAjax(formData) {
         const res = await Ajax.post('/user/register',formData);
         console.log(res)
-        if(res.code === 200 || res.status === 'ok'){
+        if(res.code === 200 && res.status === 'ok'){
             message.success('注册成功,即将跳转到登陆页面！');
             setTimeout(() =>{
                 this.props.history.push('/login');  //跳转
             },1000);
+        }else{
+            message.error("注册失败："+res.data.msg);
         }
     }
 
     handleUsername = (rule, value, callback ) => {
+        var letter = /[a-z]/i
         if( value === '' ){
             callback('');
         }
         if((value.length < 9 ) || (value.length > 20)){
             callback('用户名必须在16-20位之间');
+        }
+        if(letter.test(value)){
+            callback("不能含有英文字母")
         }
         if( this.check_other_char(value)){
             callback('不能含有特殊字符')

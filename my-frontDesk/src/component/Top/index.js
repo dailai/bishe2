@@ -28,8 +28,8 @@ class Top extends Component {
         }
         let formData = new FormData();
         formData.append('username',user.username);
-        let res = await Ajax.post('/user/out',formData);
-        if(res.status === 200){
+        let res = await Ajax.post('/user/signout',formData);
+        if(res.status === 'ok' && res.code === 200){
             // fakeAuth.signout();
             this.props.dispatch(signoutSuccess());  //将store里面的user信息删掉
             message.success("成功登出");
@@ -90,10 +90,10 @@ class Top extends Component {
                                     <div className="user-menu">
                                         <ul className="clearfix">
                                             <li>
-                                                <Link to="">
+                                                <a to="">
                                                     <i className="b-icon"></i>
                                                     个人中心
-                                                </Link>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
