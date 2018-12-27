@@ -4,8 +4,6 @@ import Video from './Video';
 import Ajax from '../../Ajax';
 class NewsetFilterVideo extends Component {
 
-
-
   state = {
     data: [],
   }
@@ -19,7 +17,6 @@ class NewsetFilterVideo extends Component {
       let res = await Ajax.get("/video/recomm");
       console.log("NewsetFilterVideo"+JSON.stringify(res))
       if( res.status === 'ok' && res.code === 200){
-          console.log("ssss")
           this.setState({
               data:res.data.data.content,
           })
@@ -33,7 +30,7 @@ class NewsetFilterVideo extends Component {
       <Video key={item.id}
         title={item.title}
         play={item.playNum}
-        imgSrc={item.coverPath}
+        imgSrc={item.coverUrl}
         id={item.id}
       />
     ))
