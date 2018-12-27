@@ -28,7 +28,7 @@ public class UserController {
      * @param username
      * @return
      */
-    @RequestMapping(value = "/out",method = RequestMethod.POST)
+    @RequestMapping(value = "/signout",method = RequestMethod.POST)
     public JSONResult out(String username) {
         User user = userRepository.getByUsername(username);
         if( user == null){
