@@ -24,17 +24,6 @@ public class VideoCatController {
     VideoCatRepository videoCatRepository;
 
 
-//    /**
-//     * 添加分类
-//     * @param videoCat
-//     * @return
-//     */
-//    @RequestMapping(value = "/add",method = RequestMethod.POST)
-//    public JSONResult add(VideoCat videoCat){
-//        VideoCat res = videoCatRepository.save(videoCat);
-//        return new JSONResult();
-//    }
-
     /**
      * 获取所有视频分类
      * @return

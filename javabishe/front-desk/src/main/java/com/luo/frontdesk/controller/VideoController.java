@@ -61,6 +61,13 @@ public class VideoController {
         return new JSONResult().put("data",videoPage);
     }
 
+    /**
+     * 按热度排序
+     * @param catId
+     * @param page
+     * @param size
+     * @return
+     */
     @RequestMapping(value = "/hs",method = RequestMethod.GET)
     public JSONResult heatSort(Long catId,
                                @RequestParam(defaultValue = "0")int page,
@@ -70,7 +77,7 @@ public class VideoController {
     }
 
     /**
-     *  显示推荐
+     *  轮播旁边的推荐
      * @return
      */
     @RequestMapping(value = "/recomm",method = RequestMethod.GET)
