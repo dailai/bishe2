@@ -1,6 +1,6 @@
 import { query, queryCurrent, querySave, qieryRemove } from '@/services/adminUser';
 import { addkey } from '@/utils/addKey';
-
+import { setAuthority } from '@/utils/authority';
 
 export default {
   namespace: 'adminUser',
@@ -22,7 +22,7 @@ export default {
       const response = yield call(queryCurrent);
       yield put({
         type: 'saveCurrentUser',
-        payload: response.data.currentUser,
+        payload: response.data,
       });
     },
     *fetchSave({ payload }, { call, put }){
@@ -51,9 +51,11 @@ export default {
       };
     },
     saveCurrentUser(state, action) {
+      const { currentUser, currentRole } = action.payload;
+      setAuthority(currentRole);
       return {
         ...state,
-        currentUser: action.payload || {},
+        currentUser: currentUser || {},
       };
     },
     changeNotifyCount(state, action) {

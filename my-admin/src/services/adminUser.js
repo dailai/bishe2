@@ -1,11 +1,11 @@
 import request from '@/utils/request';
 
 export async function query() {
-  return request('/server/admin/list');
+  return request('/admin/list');
 }
 
 export async function queryCurrent() {
-  return request('/server/admin/current');
+  return request('/admin/current');
 }
 
 export async function querySave({ id,
@@ -23,7 +23,7 @@ export async function querySave({ id,
   email ? formData.append('email',email) : '';
   phone ? formData.append('phone',phone) : '';
   
-  return request('/server/admin/save?',{
+  return request('/admin/save?',{
     method: 'POST',
     body: formData
   });
@@ -31,5 +31,5 @@ export async function querySave({ id,
 
 export async function qieryRemove({ id }){
 
-  return request('/server/admin/remove?id='+id);
+  return request('/admin/remove?id='+id);
 }

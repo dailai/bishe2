@@ -21,10 +21,10 @@ export async function queryVideos(params) {
         }
         
     }
-    return request('/server/video/list?'+urlParams);
+    return request('/video/list?'+urlParams);
 }
 
 export async function queryInfo({ id }) {
 
-    return request('/server/video/info?id='+id);
+    return request('/video/info?id='+id);
 }

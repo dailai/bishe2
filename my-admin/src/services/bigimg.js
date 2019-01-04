@@ -1,7 +1,7 @@
 import request from '@/utils/request';
 
 export async function query() {
-    return request('/server/bigimg/list');
+    return request('/bigimg/list');
 }
 
 export async function querySubmit({ name, title, width, height, url }) {
@@ -11,17 +11,17 @@ export async function querySubmit({ name, title, width, height, url }) {
     formData.append('width',width);
     formData.append('height',height);
     formData.append('url',url);
-    return request('/server/bigimg/add',{
+    return request('/bigimg/add',{
         method: 'POST',
         body: formData,
     });
 }
 
 export async function queryRemove({ id }) {
-    return request('/server/bigimg/remove?id='+id);
+    return request('/bigimg/remove?id='+id);
 }
 
 export async function queryChangeStatus({ id, status }) {
-    return request('/server/bigimg/status?id='+id+'&status='+status);
+    return request('/bigimg/status?id='+id+'&status='+status);
 }
 
