@@ -21,9 +21,9 @@ public class AdminUserRepositoryTests {
      */
     @Test
     public void findAdminUserByNameOrUsernameOrEmailOrPhone(){
-        AdminUser adminUser = adminUserRepository.
-                findAdminUserByNameOrUsernameOrEmailOrPhone("123",
-                        "","","");
-        System.out.println(adminUser);
+//        AdminUser adminUser = adminUserRepository.
+//                findAdminUserByNameOrUsernameOrEmailOrPhone("123",
+//                        "","","");
+//        System.out.println(adminUser);
     }
 }

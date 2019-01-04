@@ -10,6 +10,7 @@
     <groupId>com.luo</groupId>
     <artifactId>core</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>core</name>
     <description>核心项目</description>
 

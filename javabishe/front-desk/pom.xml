@@ -14,7 +14,18 @@
     <name>front-desk</name>
     <description>前台项目</description>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.luo</groupId>
+            <artifactId>core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

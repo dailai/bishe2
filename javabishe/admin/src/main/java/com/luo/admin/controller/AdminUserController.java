@@ -1,6 +1,7 @@
 package com.luo.admin.controller;
 
 import com.luo.admin.authorize.AdminUserDetails;
+import com.luo.core.entitys.AdminRole;
 import com.luo.core.entitys.AdminUser;
 import com.luo.core.entitys.Role;
 import com.luo.core.libs.JSONResult;
@@ -41,12 +42,14 @@ public class AdminUserController {
     public JSONResult getCurrentUser(){
         Object object = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         if( object instanceof String ){    // 游客登陆
-            return JSONResult.success().put("currentUser",adminUserRepository.findAdminUserByName("游客1212"));
+            return JSONResult.success().put("currentUser",adminUserRepository.findAdminUserByName("游客1212"))
+                    .put("currentRole","guest");
         }
         AdminUserDetails adminUserDetails = (AdminUserDetails) object;
         AdminUser adminUser = adminUserDetails.getAdminUser();
-
-        return JSONResult.success().put("currentUser",adminUser);
+        AdminRole adminRole = adminRoleRepository.getAdminRoleByAdminUserId(adminUser.getId());
+        Role role = roleRepository.getOne(adminRole.getRoleId());
+        return JSONResult.success().put("currentUser",adminUser).put("currentRole",role.getName());
     }
 
     /**

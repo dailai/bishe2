@@ -109,21 +109,6 @@ public class ImgGatherController {
     public JSONResult all(){
         return JSONResult.success();
     }
-//
-//    /**
-//     *  添加图集
-//     * @return
-//     */
-//    @RequestMapping(value = "/add",method = RequestMethod.POST)
-//    public JSONResult add(String title,int imgNum,Long imgCatId,Long[] imgIdList){
-//        ImgGather imgGather = new ImgGather(title,imgNum);
-//        imgGather.setImgCatId(imgCatId);
-//        ImgGather imgGather1 = imgGatherRepository.save(imgGather);
-//        for(Long imgId:imgIdList){
-//            imgRepository.updateImgGatherIdById(imgGather1.getId(),imgId);   //修改每一个img记录的外键
-//        }
-//        return JSONResult.success();
-//    }
 
 
 }
